@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, input, button, textarea{
+    font: 600 18px Nunito, sans-serif;
+}
+
+h5, h2, h3, p {
+    color:#eceff1;
+   
+}
+
+body{
+    color:#fff;
+    background-color:  #263238;
+}
+.container{
+    width: 100vw;
+    max-width: 960px;
+}
+
+#converContent{
+    background-color: #394850;
+    box-shadow: 1px 4px 5px #2e2d2d;
+
+
+}
+
+#converContent h2, h5, p{
+    padding-left: 1rem;
+}
+
+#converContent p span{
+    font-weight: bold;
+
+    color: #b0bec5;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+
+h1{
+    background-color: #263238;
+    width:4rem;
+    height: 4rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px #2e2d2d;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+h1:hover{
+    background-color: #1c2529;
+}
+
+input{
+    width: 25rem !important;
+}
+
+@media(max-width:990px){
+    .container{     
+        display: flex;
+
+    }
+    #converContent{
+        padding: 1.5rem;
+        width:30rem;     
+        margin:0  auto;
+    }
+    form{
+        
+        width: 30rem;
+    }
+    .select{
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        width: 120px !important;
+    }
+    h1{
+        margin-left: 1rem;
+    }
+}
+
+Button{
+    margin-left: 1rem;
+}
+
+
